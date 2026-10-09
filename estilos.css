@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    background-color: #171321;
+    color: #f5f0ff;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #100d18 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 5px;
+}
+
+/* Encabezados */
+header {
+    background: linear-gradient(135deg, #44216b, #211536);
+    color: white;
+}
+
+h1, h2 {
+    color: #d8b4fe;
+}
+
+header h1 {
+    color: white;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #251d35;
+    color: #f5f0ff;
+    border: 1px solid #4c3767;
+    border-radius: 12px;
+}
+
+.card-title {
+    color: #d8b4fe;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+}
+
+.btn-primary:hover {
+    background-color: #6d28d9;
+    border-color: #6d28d9;
+}
+
+/* Carrusel */
+.slide-artista {
+    min-height: 300px;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #55258a, #241638);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-artista h2 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.slide-artista p {
+    max-width: 650px;
+    font-size: 1.1rem;
+}
+
+.slide-secundario {
+    background: linear-gradient(135deg, #32245e, #6d28d9);
+}
+
+/* Páginas de artistas */
+.artista-card {
+    max-width: 700px;
+}
+
+/* Tabla */
+.table {
+    vertical-align: middle;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 40px;
+    background-color: #100d18;
+    color: #d8b4fe;
+}
+
+/* Formulario */
+.form-control {
+    background-color: #f8f5ff;
+    color: #171321;
+}
+
+.form-control:focus {
+    border-color: #a78bfa;
+    box-shadow: 0 0 0 0.2rem rgba(167, 139, 250, 0.25);
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar-nav {
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+
+    .slide-artista {
+        min-height: 260px;
+        padding: 45px 20px;
+    }
+}
